@@ -18,7 +18,7 @@ test('get started link', async ({ page }) => {
 });
 
 
-test('todoMVC', async ({ page }) => {
+test('todo MVC', async ({ page }) => {
   await page.goto('https://todomvc.com/examples/react/dist/');
   await page.getByTestId('text-input').click();
   await page.getByTestId('text-input').click();
